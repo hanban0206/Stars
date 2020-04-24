@@ -13,6 +13,8 @@
 		52B03E6324527A2800C48544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B03E6124527A2800C48544 /* Main.storyboard */; };
 		52B03E6524527A2B00C48544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B03E6424527A2B00C48544 /* Assets.xcassets */; };
 		52B03E6824527A2B00C48544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B03E6624527A2B00C48544 /* LaunchScreen.storyboard */; };
+		52B03E73245284A400C48544 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B03E72245284A400C48544 /* Star.swift */; };
+		52B03E75245284C300C48544 /* StarsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B03E74245284C300C48544 /* StarsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		52B03E6424527A2B00C48544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B03E6724527A2B00C48544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B03E6924527A2B00C48544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B03E72245284A400C48544 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		52B03E74245284C300C48544 /* StarsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		52B03E5A24527A2800C48544 /* Stars */ = {
 			isa = PBXGroup;
 			children = (
+				52B03E6924527A2B00C48544 /* Info.plist */,
 				52B03E5B24527A2800C48544 /* AppDelegate.swift */,
 				52B03E5D24527A2800C48544 /* SceneDelegate.swift */,
 				52B03E5F24527A2800C48544 /* StarsViewController.swift */,
 				52B03E6124527A2800C48544 /* Main.storyboard */,
 				52B03E6424527A2B00C48544 /* Assets.xcassets */,
 				52B03E6624527A2B00C48544 /* LaunchScreen.storyboard */,
-				52B03E6924527A2B00C48544 /* Info.plist */,
+				52B03E712452846C00C48544 /* Model */,
+				52B03E77245284D900C48544 /* Model Controller */,
 			);
 			path = Stars;
+			sourceTree = "<group>";
+		};
+		52B03E712452846C00C48544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52B03E72245284A400C48544 /* Star.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52B03E77245284D900C48544 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52B03E74245284C300C48544 /* StarsController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				52B03E6024527A2800C48544 /* StarsViewController.swift in Sources */,
 				52B03E5C24527A2800C48544 /* AppDelegate.swift in Sources */,
 				52B03E5E24527A2800C48544 /* SceneDelegate.swift in Sources */,
+				52B03E73245284A400C48544 /* Star.swift in Sources */,
+				52B03E75245284C300C48544 /* StarsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
